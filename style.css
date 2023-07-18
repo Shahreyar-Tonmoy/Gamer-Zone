@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav container section starts from here */
+.nav-container{
+    display: flex;
+}
+.nav-title-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+   padding: 20px 240px;
+}
+.nav-title-container h1{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+span{
+    color: #FF42A5;
+}
+.img-container{
+    height: 30px;
+    
+}
+.nav-manu-items-container{
+    display: flex;
+    width: 50%;
+    display: flex;
+    padding-right: 240px;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.nav-manu-items-container a{
+    text-decoration: none;
+    color: #57575b;
+    
+}
+.btn-follow-us{
+    font-size: 14px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 10px;
+    color: #57575b;
+    border: none;
+    cursor: pointer;
+}
+.icon-youtube{
+    color: #F61C0D;
+}
+.icon-tiktok{
+    color: black;
+}
+/* nav container section ends from here */
+
+     /* ------------------------ */
+
+/* banner container section starts from here */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FF42A5;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn-GO-ROGUE{
+    background-color: #4EC5F7;
+}
+
+.banner-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    
+    padding: 100px 0px 80px 238px;
+    
+}
+.h1-play{
+    font-size: 35px;
+}
+.h1-GOAT{
+    font-size: 72px;
+    background-image: linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-text-container h1{
+    margin-bottom: 10px;
+}
+.banner-text-container p{
+    font-size: 15px;
+}
+.icon-click{
+    color: #FF42A5;
+    
+}
+.icon-download{
+    color: #FF42A5; 
+}
+.image-container{
+    width: 80%;
+    
+    
+}
+.image-container-section{
+    display: flex;
+    margin-right: 130px;
+}
+
+/* banner container section ends from here */
+
+
+/* We are gamer container section starts from here */
+.we-are-gamer-container{
+    display: flex;
+    padding-inline: 200px;
+    background-color: #FFF9FC;
+    
+}
+.we-are-gamer-img-container{
+    width: 50%;
+    
+}
+.gamer-image{
+    width: 120%;
+    height: 100%;
+    
+    
+}
+.gamer-container-text{
+    width: 50%;
+    
+    padding-right: 30px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.gamer-container-text h1{
+    background-image: linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text
+}
+.gamer-container-text p{
+    font-size: 15px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+.gamer-container-text a{ 
+    text-decoration: none;
+}
+.gamer-container-text p{
+    margin-top: 10px;
+}
+.gamer-container-text h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+/* We are gamer container section ends from here */
+
+
