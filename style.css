@@ -225,7 +225,8 @@ span{
 
     
 }
-.card img:hover{
+.card:hover img{
+    
     opacity: 0.5;
     color: #FF42A5; 
     border: 4px solid ;
@@ -236,6 +237,7 @@ span{
     width: 100%;
     border: none;
     border-radius: 15px;
+    
     
 }
 .card p{
