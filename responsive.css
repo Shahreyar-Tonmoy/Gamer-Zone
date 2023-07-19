@@ -240,7 +240,81 @@
     margin-top: 3px;
     font-weight: bold;
 }
+footer{
+    width: 100%;
+}
+.footer-logo h1{
+    color: white;
+    font-size: 25px;
+}
+.gamepad{
+    height: 25px;
+}
+.footer-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 100px
 
+    
+}
+
+.footer-menu-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+    color: white;
+    font-size: 10px;
+    margin: 30px 35% ;
+    
+}
+.footer-menu-container p{
+    margin: -60px;
+}
+
+
+.footer-icon{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    /* margin-top: 40px; */
+    margin:20px 25% ;
+
+    
+}
+.footer-icon a{
+    width: 50%;
+    text-decoration: none;
+    
+    font-size: 20px;
+    
+}
+.support-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 50px;
+    margin-top: -50px;
+    
+}
+.support-section a{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    margin: 15px;
+}
+.copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: -20px;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
 
 
 }
