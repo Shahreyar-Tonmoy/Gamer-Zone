@@ -177,14 +177,25 @@
         flex-direction: column;
         
         margin-top: -50px;
+        margin-left: -180px;
+
         align-items: center;
         text-align: center;
+        padding: 0 90px;
     }
-    
     .play-instantly-text-container p{
         padding-left: 0px;
         font-size:8px;
+        
+        margin-left: -200px;
+        padding: 0 50px;
+        font-size: 10px;
         margin-top: 10px;
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
         
     }
     .play-instantly-img-1{
@@ -210,8 +221,6 @@
 .play{
     margin-bottom: -20px;
 }
-body{
-    border: 5px solid red;
-}
+
 }
 

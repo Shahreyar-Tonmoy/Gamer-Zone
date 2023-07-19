@@ -268,16 +268,22 @@ span{
     flex-direction: column;
     justify-content: center;
    align-items: center;
-    margin: -50px 0px 20px;
+   text-align: right;
+    margin: -50px 20px 20px 200px;
 }
 .play-instantly-text-container p{
     
     font-size: 13px;
     margin-top: 20px;
+    padding: 0 100px 0 150px;
+    justify-content: center;
+    text-align: right;
+   
     
 }
 .play-instantly-text-container h1{
     font-size: 40px;
+    padding: 0 100px;
     
 }
 .play-instantly-img-container{
@@ -293,9 +299,6 @@ span{
 .play-instantly-img-2{
     width: 32%;
     display: flex;
-    margin-top: -165px;
-    margin-left: -85px;
-}
-body{
-    border: 5px solid;
+    margin-top: -135px;
+    margin-left: -95px;
 }
