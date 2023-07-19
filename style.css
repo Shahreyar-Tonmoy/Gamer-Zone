@@ -217,22 +217,85 @@ span{
     
     
 }
+ 
+
+
 .card{
     width: 95%;
-    
+
     
 }
 .card img:hover{
-    filter: rgb(31, 29, 29);
+    opacity: 0.5;
     color: #FF42A5; 
-    border: 4px solid ;;
+    border: 4px solid ;
+    cursor: pointer;
 }
 
 .card img{
     width: 100%;
     border: none;
     border-radius: 15px;
+    
 }
 .card p{
     font-size: 15px;
+}
+
+
+
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-instantly-container{
+    display: flex;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+   gap: 200px;
+}
+.play-instantly-text-container{
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    margin: -50px 0px 20px;
+}
+.play-instantly-text-container p{
+    
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+.play-instantly-text-container h1{
+    font-size: 40px;
+    
+}
+.play-instantly-img-container{
+    
+    display: flex;
+    flex-direction: column;
+}
+.play-instantly-img-1{
+    width: 60%;
+    
+
+}
+.play-instantly-img-2{
+    width: 32%;
+    display: flex;
+    margin-top: -165px;
+    margin-left: -85px;
+}
+body{
+    border: 5px solid;
 }
