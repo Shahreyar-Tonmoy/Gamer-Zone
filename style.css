@@ -302,3 +302,42 @@ span{
     margin-top: -135px;
     margin-left: -95px;
 }
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 5px;
+    
+    border-radius: 70px;
+    
+    
+}
+.button-container:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    cursor: pointer;
+}
+.button-container p{
+    font-size: 13px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.button-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: -100px;
+    /* grid-template-columns: repeat(5, 1fr); */
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding: 100px 250px;
+    background-color: #FFF9FC;
+    
+    
+}
+.icon{
+    width: 20%;
+}
