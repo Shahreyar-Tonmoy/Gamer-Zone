@@ -370,6 +370,7 @@ footer{
     color: white;
     font-size: 16px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .footer-icon{
@@ -391,6 +392,7 @@ footer{
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 .support-section a{
     font-size: 13px;
@@ -405,3 +407,66 @@ footer{
     font-size: 12px;
     padding-bottom: 100px;
 }
+
+
+
+
+
+
+
+
+
+/* video hover section */
+.card{
+    position: relative;
+    width: 95%;
+  }
+
+.image {
+    display: block;
+    width: 95%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    width: 100.5%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0B0223;
+    border-radius: 15px;
+    border: 5px solid #FF42A5 ;
+
+  }
+  .card:hover .overlay {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .text {
+    color: #FF42A5;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+  }
+  .icon-play{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+  }
+  
