@@ -341,8 +341,8 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 92.5%;
-    width: 100.5%;
+    height: 91%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #0B0223;
@@ -722,8 +722,8 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 91.5%;
-    width: 100.5%;
+    height: 90.8%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #0B0223;
